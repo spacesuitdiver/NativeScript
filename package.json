@@ -59,6 +59,7 @@
     "compile-check-base-dts": "npm run tsc -- -p tsconfig.base-dts.json",
     "compile-unit-tests": "npm run tsc -- -p tsconfig.unit-tests.json --outDir bin/dist/unit-tests",
     "compile-check-combined-dts": "npm run tsc -- -p tsconfig.combined-dts.json",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "tsc-w": "npm run tsc -- --skipLibCheck -w",
     "dev-tsc-tns-platform-declarations": "npm run tsc -- -p tns-platform-declarations",
     "dev-tsc-tests": "npm run tsc -- -p tests",
